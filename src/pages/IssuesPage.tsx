@@ -67,6 +67,8 @@ const IssuesPage: React.FC = () => {
             <Tabs
               value={tabIndex}
               onChange={handleTabChange}
+              variant="scrollable"
+              scrollButtons={false}
               sx={(theme) => ({
                 '& .MuiTab-root': {
                   fontSize: '0.85rem',
