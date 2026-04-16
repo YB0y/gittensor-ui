@@ -100,6 +100,8 @@ const MinerDetailsPage: React.FC = () => {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'space-between',
+              flexWrap: 'wrap',
+              gap: 1,
             }}
           >
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
